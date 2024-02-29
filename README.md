@@ -1,6 +1,6 @@
 <h1>Cronômetro : </h1>
  Para obter a melhor eficiência durante meus estudos, gosto de aplicar a técnica <n>Pomodoro</n>.
- Por este motivo achei interessante a ideia de criar um cronômetro e ao finalizar o contador, emitisse um efeito sonoro.
+ Por razão achei interessante a ideia de criar um cronômetro e ao finalizar o contador, emitisse um efeito sonoro.
  <hr>
  Para os interessandos, Pomodoro é um método de estudo que consiste em:
  <ul>
