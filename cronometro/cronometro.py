@@ -2,13 +2,13 @@ import time
 import pygame
 
 def sound():
-    som = "soundcronometro.mp3"
+    som = "C:/Users/Edu/Documents/GitHub/cronometro/cronometro/soundcronometro.mp3"
     pygame.init()
     pygame.mixer.music.load(som)
     pygame.mixer.music.play()
     input()
     pygame.event.wait()
-
+    
 
 def contagem(min, seg):
     contagem_total = int(min * 60 + seg)
@@ -28,11 +28,11 @@ def contagem(min, seg):
         contagem_total -= 1
         
 
-    print ("Cronômetro finalizado!")
+    print ("Me contrata por favor :)")
     #Lembrando que o print deve ficar fora do while.
 
 minutos = int(input("Digite os minutos: "))
 segundos = int(input("Digite os segundos: "))
 
 contagem (minutos, segundos)
-sound ()
+sound()
